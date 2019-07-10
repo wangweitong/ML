@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d19e592-95dc-4649-9645-d71ce7dbba2d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/adaboost/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adaboost/adaboost.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knn/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/line_regression/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/line_regression/line_regression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logistic_regression/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logistic_regression/logistic_regression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/svm/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/svm/svm.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lr/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/NativeBayes/NativeBayes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lr/lr.py" beforeDir="false" afterPath="$PROJECT_DIR$/NativeBayes/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_data.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,14 +36,58 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/test_data.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NativeBayes/NativeBayes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state>
+              <caret lean-forward="true" selection-end-line="14" selection-end-column="32" />
               <folding>
-                <element signature="e#0#35#0" expanded="true" />
-                <marker date="1562678075135" expanded="true" signature="550:584" ph="..." />
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/line_regression/line_regression.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/logistic_regression/logistic_regression.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="45" lean-forward="true" selection-end-line="15" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/svm/svm.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="13" lean-forward="true" selection-end-line="15" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/adaboost/adaboost.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -56,7 +111,12 @@
         <option value="$PROJECT_DIR$/LR/LT.py" />
         <option value="$PROJECT_DIR$/ETL/load_data.py" />
         <option value="$PROJECT_DIR$/etl/load_data.py" />
+        <option value="$PROJECT_DIR$/lr/lr.py" />
         <option value="$PROJECT_DIR$/test/test_data.py" />
+        <option value="$PROJECT_DIR$/NativeBayes/NativeBayes.py" />
+        <option value="$PROJECT_DIR$/logistic_regression/logistic_regression.py" />
+        <option value="$PROJECT_DIR$/svm/svm.py" />
+        <option value="$PROJECT_DIR$/adaboost/adaboost.py" />
       </list>
     </option>
   </component>
@@ -83,17 +143,12 @@
             <path>
               <item name="ML" type="b2602c69:ProjectViewProjectNode" />
               <item name="ML" type="462c0819:PsiDirectoryNode" />
-              <item name="etl" type="462c0819:PsiDirectoryNode" />
+              <item name="adaboost" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ML" type="b2602c69:ProjectViewProjectNode" />
               <item name="ML" type="462c0819:PsiDirectoryNode" />
-              <item name="lr" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ML" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="line_regression" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -120,7 +175,51 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.logistic_regression">
+    <configuration name="NativeBayes" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ml" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NativeBayes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NativeBayes/NativeBayes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="logistic_regression" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ml" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/logistic_regression" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/logistic_regression/logistic_regression.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ml" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -145,6 +244,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.logistic_regression" />
+        <item itemvalue="Python.NativeBayes" />
         <item itemvalue="Python.test_data" />
       </list>
     </recent_temporary>
@@ -161,7 +262,9 @@
       <updated>1562576214209</updated>
       <workItem from="1562576215326" duration="4979000" />
       <workItem from="1562590811487" duration="1485000" />
-      <workItem from="1562659191285" duration="5956000" />
+      <workItem from="1562659191285" duration="6169000" />
+      <workItem from="1562679259994" duration="1907000" />
+      <workItem from="1562756854704" duration="7642000" />
     </task>
     <task id="LOCAL-00001" summary="测试最初版，但是兼容性不好">
       <created>1562592109829</created>
@@ -170,16 +273,24 @@
       <option name="project" value="LOCAL" />
       <updated>1562592109829</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="lr 编写，label类型有点问题">
+      <created>1562678298443</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1562678298443</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12420000" />
+    <option name="totallyTimeSpent" value="22182000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25037822" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2579425" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -207,25 +318,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="测试最初版，但是兼容性不好" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试最初版，但是兼容性不好" />
+    <MESSAGE value="lr 编写，label类型有点问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="lr 编写，label类型有点问题" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ML$test_data.coverage" NAME="test_data Coverage Results" MODIFIED="1562678242465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/ML$logistic_regression.coverage" NAME="logistic_regression Coverage Results" MODIFIED="1562764859472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/logistic_regression" />
+    <SUITE FILE_PATH="coverage/ML$test_data.coverage" NAME="test_data Coverage Results" MODIFIED="1562760796679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/ML$NativeBayes.coverage" NAME="NativeBayes Coverage Results" MODIFIED="1562763274423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NativeBayes" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lr/lr.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etl/load_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/python3/Lib/site-packages/torch/tensor.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
@@ -243,17 +344,94 @@
     <entry file="file://D:/python3/Lib/site-packages/sklearn/linear_model/logistic.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
-          <caret line="431" selection-start-line="431" selection-end-line="431" />
+          <caret line="1532" column="12" lean-forward="true" selection-start-line="1532" selection-start-column="12" selection-end-line="1532" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python3/Lib/site-packages/sklearn/linear_model/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="366" column="6" selection-start-line="366" selection-start-column="6" selection-end-line="366" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etl/load_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="264">
+          <caret line="15" column="30" lean-forward="true" selection-end-line="16" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <marker date="1562678075135" expanded="true" signature="550:584" ph="..." />
+            <element signature="e#1#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python3/Lib/site-packages/sklearn/utils/multiclass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python3/Lib/site-packages/pandas/core/indexes/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="2658" selection-start-line="2658" selection-end-line="2658" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/line_regression/line_regression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NativeBayes/NativeBayes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logistic_regression/logistic_regression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="45" lean-forward="true" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svm/svm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="13" lean-forward="true" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adaboost/adaboost.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
