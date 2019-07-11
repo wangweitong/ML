@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d19e592-95dc-4649-9645-d71ce7dbba2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kmeans/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kmeans/kmeans.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/line_regression/line_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/line_regression/line_regression.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,8 +40,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/line_regression/line_regression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="176">
+              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -146,6 +148,7 @@
         <option value="$PROJECT_DIR$/svm/svm.py" />
         <option value="$PROJECT_DIR$/decision_regression_tree/decision_regression_tree.py" />
         <option value="$PROJECT_DIR$/kmeans/kmeans.py" />
+        <option value="$PROJECT_DIR$/line_regression/line_regression.py" />
       </list>
     </option>
   </component>
@@ -204,29 +207,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.kmeans">
-    <configuration name="adaboost" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ml" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/adaboost" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/adaboost/adaboost.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.line_regression">
     <configuration name="decision_regression_tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ml" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -263,6 +244,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kmeans/kmeans.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="line_regression" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ml" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/line_regression" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/line_regression/line_regression.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -317,11 +320,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.line_regression" />
         <item itemvalue="Python.kmeans" />
         <item itemvalue="Python.decision_regression_tree" />
         <item itemvalue="Python.logistic_regression" />
         <item itemvalue="Python.svm" />
-        <item itemvalue="Python.adaboost" />
       </list>
     </recent_temporary>
   </component>
@@ -341,7 +344,7 @@
       <workItem from="1562679259994" duration="1907000" />
       <workItem from="1562756854704" duration="9226000" />
       <workItem from="1562768544912" duration="14000" />
-      <workItem from="1562845396166" duration="2204000" />
+      <workItem from="1562845396166" duration="3544000" />
     </task>
     <task id="LOCAL-00001" summary="测试最初版，但是兼容性不好">
       <created>1562592109829</created>
@@ -371,18 +374,27 @@
       <option name="project" value="LOCAL" />
       <updated>1562766354370</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="完成大部分，缺少PCA和SVD">
+      <created>1562847998846</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1562847998846</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25984000" />
+    <option name="totallyTimeSpent" value="27324000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3295082" />
@@ -411,11 +423,13 @@
     <MESSAGE value="lr 编写，label类型有点问题" />
     <MESSAGE value="完成到adaboost，简易版，比想象的简单，先把流程跑通" />
     <MESSAGE value="决策树完成，还解决了一些漏洞" />
-    <option name="LAST_COMMIT_MESSAGE" value="决策树完成，还解决了一些漏洞" />
+    <MESSAGE value="完成大部分，缺少PCA和SVD" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成大部分，缺少PCA和SVD" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ML$logistic_regression.coverage" NAME="logistic_regression Coverage Results" MODIFIED="1562766151517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/logistic_regression" />
     <SUITE FILE_PATH="coverage/ML$decision_regression_tree.coverage" NAME="decision_regression_tree Coverage Results" MODIFIED="1562766260985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decision_regression_tree" />
+    <SUITE FILE_PATH="coverage/ML$line_regression.coverage" NAME="line_regression Coverage Results" MODIFIED="1562850463743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/line_regression" />
     <SUITE FILE_PATH="coverage/ML$adaboost.coverage" NAME="adaboost Coverage Results" MODIFIED="1562766001405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/adaboost" />
     <SUITE FILE_PATH="coverage/ML$kmeans.coverage" NAME="kmeans Coverage Results" MODIFIED="1562846475156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kmeans" />
     <SUITE FILE_PATH="coverage/ML$test_data.coverage" NAME="test_data Coverage Results" MODIFIED="1562760796679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -558,8 +572,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/line_regression/line_regression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="176">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
